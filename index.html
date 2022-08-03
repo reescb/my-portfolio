@@ -7,10 +7,30 @@
     <title>Document</title>
   </head>
   <body>
+    <style>
+      :root {
+        --primary-color: #f664a8;
+        --border: pink;
+        --box-shadow: 2px 3px 3px #9771f3;
+        --padding: 4px;
+      }
+
+      h1 {
+        color: var(--primary-color);
+      }
+
+      a {
+        border: 2px solid var(--border);
+        box-shadow: var(--box-shadow);
+        padding: var(--padding);
+      }
+    </style>
     <h1>My Portfolio</h1>
     <a href="about.html#email">Contact</a>
     <br />
+    <br />
     <a href="project-directory/weather.html">My Weather Project⚡</a>
+    <br />
     <br />
     <a href="about.html">About</a>
   </body>
