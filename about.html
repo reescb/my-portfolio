@@ -5,21 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
-    <h1>About Me</h1>
-    <a href="index.html">Homepage</a>
-    <br />
-    <br />
-    <h2 id="email">Contact Caz Rees</h2>
-    <a id="link-colour" href="mailto:rees.cb@googlemail.com">Email</a>
     <style>
-      a:hover {
+      .colours {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .colours-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      }
+
+      .colours-evenly {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .colours-border {
+        display: flex;
+      }
+
+      .border {
+        border: 2px solid mediumvioletred;
+        flex: 1;
+      }
+
+      .colours a:hover {
         color: teal;
       }
       a:visited {
         color: mediumvioletred;
       }
     </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <br />
+    <div class="colours">
+      <div>Blue</div>
+      <div>Red</div>
+      <div>Green</div>
+    </div>
+    <br />
+    <div class="colours-right">
+      <div>Blue</div>
+      <div>Red</div>
+      <div>Green</div>
+    </div>
+    <br />
+    <div class="colours-evenly">
+      <div>Blue</div>
+      <div>Red</div>
+      <div>Green</div>
+    </div>
+    <br />
+    <div class="colours-border">
+      <div class="border">Blue</div>
+      <div class="border">Red</div>
+      <div class="border">Green</div>
+    </div>
+    <br />
+    <h2 id="email">Contact Caz Rees</h2>
+    <a id="link-colour" href="mailto:rees.cb@googlemail.com">Email</a>
+    <br />
+    <br />
+    <a href="index.html">Return to Homepage</a>
   </body>
 </html>
