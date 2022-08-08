@@ -6,72 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .colours {
+      .home-link {
+        display: flex;
+        justify-content: center;
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 96px;
+      }
+
+      h2 {
+        font-size: 48px;
+      }
+
+      h3 {
+        font-size: 24px;
+        opacity: 0.7;
+      }
+
+      body {
+        margin: 60px auto;
+        max-width: 800px;
+      }
+
+      :root {
+        --primary-color: #6c63ff;
+        --secondary-color: #f5f2fe;
+      }
+
+      .about-paragraphs {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        margin: 30px 0;
       }
 
-      .colours-right {
+      .paragraph-1,
+      .paragraph-2 {
+        background: var(--secondary-color);
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .email-link {
         display: flex;
-        flex-direction: row;
-        justify-content: right;
-      }
-
-      .colours-evenly {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-      }
-
-      .colours-border {
-        display: flex;
-      }
-
-      .border {
-        border: 2px solid mediumvioletred;
-        flex: 1;
-      }
-
-      .colours a:hover {
-        color: teal;
-      }
-      a:visited {
-        color: mediumvioletred;
+        justify-content: center;
+        color: var(--primary-color);
+        font-size: 28px;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
-    <h1>About Me</h1>
-    <br />
-    <div class="colours">
-      <div>Blue</div>
-      <div>Red</div>
-      <div>Green</div>
+    <a href="homework.html" class="home-link">Back to homepage</a>
+    <h1>About me</h1>
+    <h3>Front-end developer from Leek, United Kingdom</h3>
+    <div class="about-paragraphs">
+      <div class="paragraph-1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </div>
+      <div class="paragraph-2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </div>
     </div>
-    <br />
-    <div class="colours-right">
-      <div>Blue</div>
-      <div>Red</div>
-      <div>Green</div>
+
+    <div id="contact">
+      <h2>📮 Contact me</h2>
+      <a href="mailto:rees.cb@googlemail.com" class="email-link"
+        >rees.cb@googlemail.com</a
+      >
     </div>
-    <br />
-    <div class="colours-evenly">
-      <div>Blue</div>
-      <div>Red</div>
-      <div>Green</div>
-    </div>
-    <br />
-    <div class="colours-border">
-      <div class="border">Blue</div>
-      <div class="border">Red</div>
-      <div class="border">Green</div>
-    </div>
-    <br />
-    <h2 id="email">Contact Caz Rees</h2>
-    <a id="link-colour" href="mailto:rees.cb@googlemail.com">Email</a>
-    <br />
-    <br />
-    <a href="index.html">Return to Homepage</a>
   </body>
 </html>

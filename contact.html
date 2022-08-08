@@ -5,9 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .home-link {
+        display: flex;
+        justify-content: center;
+      }
+
+      h1,
+      h2,
+      h3 {
+        text-align: center;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 96px;
+      }
+
+      h2 {
+        font-size: 48px;
+      }
+
+      h3 {
+        font-size: 24px;
+        opacity: 0.7;
+      }
+
+      body {
+        margin: 60px auto;
+        max-width: 800px;
+      }
+
+      :root {
+        --primary-color: #6c63ff;
+        --secondary-color: #f5f2fe;
+      }
+
+      .about-paragraphs {
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0;
+      }
+
+      .paragraph-1,
+      .paragraph-2 {
+        background: var(--secondary-color);
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 10px;
+      }
+
+      .email-link {
+        display: flex;
+        justify-content: center;
+        color: var(--primary-color);
+        font-size: 28px;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
-    <h1>Contact page 📧</h1>
-    <a href="index.html">Homepage</a>
+    <a href="homework.html" class="home-link">Back to homepage</a>
+    <h1>About me</h1>
+    <h3>Front-end developer from Leek, United Kingdom</h3>
+    <div class="about-paragraphs">
+      <div class="paragraph-1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </div>
+      <div class="paragraph-2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+        <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2>📮 Contact me</h2>
+      <a href="mailto:rees.cb@googlemail.com" class="email-link"
+        >rees.cb@googlemail.com</a
+      >
+    </div>
   </body>
 </html>
