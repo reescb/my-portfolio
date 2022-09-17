@@ -11,19 +11,38 @@ body {
 }
 
 h1,
+h2,
 h3 {
-  text-align: center;
-  margin: 0;
   font-family: var(--heading-font-family);
 }
 h1 {
   font-size: 96px;
+  padding-top: 70px;
+}
+
+h1.about-header {
+  font-size: 64px;
+  line-height: 80px;
+  padding-top: 0px;
+}
+
+.about-section {
+  padding: 60px 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 27px;
+}
+.about-section-content {
+  margin: 30px;
 }
 
 h2 {
-  font-size: 24px;
-  padding-top: 70px;
-  font-size: 36px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
   font-family: var(--default-font-family);
 }
 
@@ -33,12 +52,19 @@ h3 {
 }
 
 p {
-  padding: 20px;
   border-radius: 4px;
   font-size: 16px;
   line-height: 30px;
-  text-align: center;
-  margin: 20px;
+}
+
+img {
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 904px;
+  left: 711px;
+  top: 0px;
 }
 
 .hero {
@@ -117,15 +143,6 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
 }
 
 .email-link {
