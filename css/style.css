@@ -113,6 +113,10 @@ img {
   text-transform: capitalize;
 }
 
+.navigation-linkS.active a {
+  font-weight: bold;
+}
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -172,16 +176,9 @@ img {
   text-decoration: none;
 }
 
-.email-link:hover, .twitter:hover {
-  color: black; 
-
-.weather-description {
-}
-
-.yoga-description {
-}
-
-.dance-description {
+.email-link:hover,
+.twitter:hover {
+  color: black;
 }
 
 @media (max-width: 576px) {
