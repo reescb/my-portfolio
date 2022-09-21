@@ -113,7 +113,7 @@ img {
   text-transform: capitalize;
 }
 
-.navigation-linkS.active a {
+.navigation-links.active a {
   font-weight: bold;
 }
 
