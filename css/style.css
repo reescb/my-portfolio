@@ -195,11 +195,12 @@ img {
     margin: 0 auto;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .weather-description,
   .yoga-description,
   .dance-description,
-  .navigation-links {
+  .navigation-links,
+  .about-section-content {
     font-size: 60px;
     text-align: center;
     display: block;
