@@ -16,6 +16,10 @@ h3 {
   font-family: var(--heading-font-family);
 }
 
+h4 {
+  font-size: 48px;
+}
+
 h1 {
   font-size: 64px;
 }
@@ -182,6 +186,40 @@ img {
   color: black;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .email-footer {
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.email-footer:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   .homepage-photo,
   .about-image {
@@ -205,6 +243,14 @@ img {
     text-align: center;
     display: block;
     margin: 0;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 
   .hero {
