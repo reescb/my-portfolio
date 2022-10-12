@@ -106,7 +106,7 @@ img {
   width: 350px;
   border: 1px solid var(--secondary-color);
   border-radius: 50%;
-  padding: 0%;
+  margin-right: 200px;
   padding-top: 30px;
 }
 
@@ -130,6 +130,9 @@ img {
   padding-top: 0px;
 }
 
+.footer-home {
+  padding-top: 250px;
+}
 .contact-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -155,12 +158,6 @@ img {
 .hero {
   background: #f9f7fe;
   text-align: center;
-}
-
-.hero-img {
-  width: 200px;
-  border: 2px solid var(--secondary-color);
-  margin: 0 auto;
 }
 
 .intro {
