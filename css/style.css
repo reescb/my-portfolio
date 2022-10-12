@@ -52,6 +52,19 @@ h1.project-page {
   margin: 30px;
 }
 
+.logos {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nas-logo,
+.dcc-logo,
+.amnesty-logo {
+  padding: 20px;
+  margin: 20px;
+}
+
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
@@ -251,14 +264,13 @@ footer .contact-box {
 }
 @media (max-width: 500px) {
   .weather-description,
-  .yoga-description,
-  .dance-description,
+  .dance-description p,
   .navigation-links,
   .about-section-content {
     font-size: 60px;
     text-align: center;
     display: block;
-    margin: 0;
+    margin: 0 auto;
   }
 
   h3 {
