@@ -18,6 +18,9 @@ h3 {
 
 h3 {
   font-size: 28px;
+}
+
+.landing {
   margin-left: 130px;
 }
 
@@ -26,7 +29,7 @@ h1 {
 }
 h1.landing-page {
   font-size: 66px;
-  padding-top: 150px;
+  margin-top: 50px;
   margin-left: 130px;
 }
 
@@ -55,16 +58,20 @@ h1.project-page {
 }
 
 .logos {
-  width: 600px;
-  display: flex;
-  justify-content: space-evenly;
+}
+
+li {
+}
+
+ul {
+  list-style-type: none;
 }
 
 .nas-logo,
 .dcc-logo,
 .amnesty-logo {
-  padding: 20px;
-  margin: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .content h3 {
@@ -94,20 +101,26 @@ p {
 img {
   border-radius: 4px;
   display: block;
-  margin: 0 auto;
-  width: 400px;
-  height: 904px;
-  left: 711px;
-  top: 0px;
-  padding-top: 35px;
+
+  width: 350px;
 }
 
-.flower {
-  width: 350px;
+.hi {
+  width: 300px;
   border: 1px solid var(--secondary-color);
-  border-radius: 50%;
+  border-radius: 70%;
+  margin-top: 100px;
+  margin-left: 80px;
   margin-right: 200px;
-  padding-top: 30px;
+}
+
+.birds {
+  margin-right: 100px;
+  width: 50%;
+}
+
+.birdstop {
+  margin-left: 900px;
 }
 
 .figure {
@@ -115,11 +128,11 @@ img {
   padding: 0px;
 }
 
-.sketch {
+.turtle {
   width: 200px;
-  margin-left: 150px;
+  margin-left: 200px;
   margin-bottom: 0px;
-  padding-top: 0px;
+  margin-top: 230px;
 }
 
 .sketch2 {
@@ -170,7 +183,7 @@ img {
 }
 
 .navbar {
-  background-color: #2e4437;
+  background-color: #9dc2f7;
 }
 
 .nav-link {
