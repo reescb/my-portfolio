@@ -106,14 +106,14 @@ img {
 }
 
 .hero-img {
-  width: 500px;
+  width: 450px;
 }
 
 .hi {
   width: 300px;
   border: 1px solid var(--secondary-color);
   border-radius: 70%;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 80px;
   margin-right: 200px;
 }
@@ -315,7 +315,7 @@ footer .contact-box {
     margin: 0 auto;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 980px) {
   .weather-description,
   .dance-description p,
   .navigation-links,
@@ -336,6 +336,22 @@ footer .contact-box {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  h1.landing-page {
+    margin-top: 100px;
+  }
+
+  h1.landing-page,
+  .hero-img,
+  h3 {
+    text-align: center;
+  }
+
+  .hero-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
   }
 
   .about-link,
