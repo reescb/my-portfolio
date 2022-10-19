@@ -326,8 +326,8 @@ footer .contact-box {
     margin: 0 auto;
   }
 
-  h3 {
-    font-size: 18px;
+  h3.landing {
+    font-size: 34px;
   }
 
   footer .contact-box {
