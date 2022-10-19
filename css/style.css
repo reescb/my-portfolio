@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #2e4437;
+  --primary-color: #7ba4d8;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
@@ -11,26 +11,24 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font-family);
-}
-
-h3 {
-  font-size: 28px;
+  color: #446584;
 }
 
 .landing {
-  margin-left: 130px;
+  color: #c7dbec;
+  margin-left: 50px;
+  font-size: 50px;
 }
 
 h1 {
   font-size: 64px;
 }
 h1.landing-page {
-  font-size: 66px;
-  margin-top: 50px;
-  margin-left: 130px;
+  font-size: 100px;
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 h1.about-header {
@@ -74,6 +72,9 @@ ul {
   padding: 0px;
 }
 
+.nas-logo {
+}
+
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
@@ -101,8 +102,11 @@ p {
 img {
   border-radius: 4px;
   display: block;
+  width: 200px;
+}
 
-  width: 350px;
+.hero-img {
+  width: 500px;
 }
 
 .hi {
@@ -116,11 +120,12 @@ img {
 
 .birds {
   margin-right: 100px;
-  width: 50%;
+  width: 100px;
 }
 
 .birdstop {
   margin-left: 900px;
+  width: 500px;
 }
 
 .figure {
@@ -128,19 +133,13 @@ img {
   padding: 0px;
 }
 
-.turtle {
-  width: 200px;
-  margin-left: 200px;
-  margin-bottom: 0px;
-  margin-top: 230px;
+.dancing,
+.weather {
+  display: block;
+  margin: 0 auto;
 }
 
-.sketch2 {
-  width: 170px;
-  margin-top: 50px;
-  margin-right: 150px;
-  margin-bottom: 0px;
-  padding-top: 0px;
+.croissant {
 }
 
 .footer-home {
@@ -183,7 +182,7 @@ img {
 }
 
 .navbar {
-  background-color: #9dc2f7;
+  background-color: #7ba4d8;
 }
 
 .nav-link {
@@ -193,7 +192,7 @@ img {
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  justify-content: center;
+  margin-left: 30px;
 }
 
 .navigation-links a {
@@ -210,7 +209,7 @@ img {
 
 .about-link,
 .contact-link {
-  color: var(--primary-color);
+  color: #335376;
   border: 1px solid var(--primary-color);
 }
 
