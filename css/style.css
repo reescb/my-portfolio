@@ -18,7 +18,6 @@ h2 {
 
 .landing {
   color: #c7dbec;
-
   font-size: 50px;
 }
 
@@ -26,8 +25,8 @@ h1 {
   font-size: 64px;
 }
 h1.landing-page {
-  font-size: 100px;
-  margin-top: 20px;
+  font-size: 95px;
+  margin-top: 10px;
 }
 
 h1.about-header {
