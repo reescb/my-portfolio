@@ -124,7 +124,7 @@ img {
 
 .birdstop {
   margin-left: 900px;
-  width: 500px;
+  width: 400px;
 }
 
 .figure {
@@ -192,7 +192,6 @@ img {
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  margin-left: 30px;
 }
 
 .navigation-links a {
