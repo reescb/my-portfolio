@@ -418,5 +418,21 @@ footer .contact-box {
     .about-header {
       text-align: start;
     }
+
+    .hero-img {
+      width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 767px) {
+    .hero-img {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    .hero-content {
+      padding-right: 0px;
+    }
   }
 }
