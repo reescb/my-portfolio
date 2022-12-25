@@ -477,5 +477,9 @@ footer .contact-box {
     .full-text {
       display: none;
     }
+
+    .hero-img {
+      margin: 0 auto;
+    }
   }
 }
