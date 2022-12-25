@@ -461,6 +461,10 @@ footer .contact-box {
       margin: 0 auto;
     }
 
+    .hero-content {
+      padding-right: 0px;
+    }
+
     .short-text {
       display: inline-block;
     }
