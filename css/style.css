@@ -314,6 +314,12 @@ footer .contact-box {
   color: var(--primary-color);
 }
 
+.li:before {
+  content: ”\00A3″;
+  font-family: “Font Awesome 5 Brands“;
+  font-weight: 900;
+}
+
 @media (max-width: 576px) {
   .homepage-photo,
   .about-image {
