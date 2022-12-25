@@ -52,6 +52,12 @@ h1.project-page {
 .about-section-content {
   margin: 30px;
 }
+.about-section.short-text {
+  display: none;
+}
+.about-section.full-text {
+  display: inline-block;
+}
 
 .logos {
 }
@@ -367,6 +373,13 @@ footer .contact-box {
     font-size: 20px;
   }
 
+  .short-text {
+    display: inline-block;
+  }
+  .full-text {
+    display: none;
+  }
+
   @media (min-width: 768px) and (max-width: 1024px) {
     .about-link,
     .contact-link {
@@ -418,6 +431,18 @@ footer .contact-box {
     .about-header {
       text-align: start;
     }
+
+    .short-text {
+      display: inline-block;
+    }
+    .full-text {
+      display: none;
+    }
+
+    .hi {
+      margin-left: 40px;
+      margin-top: 70px;
+    }
   }
 
   @media (min-width: 200px) and (max-width: 767px) {
@@ -426,13 +451,21 @@ footer .contact-box {
     }
 
     .hi {
-      margin-left: 0;
+      margin: 0 auto;
       margin-top: 30px;
+      width: 250px;
     }
 
     .about-p {
       text-align: center;
       margin: 0 auto;
+    }
+
+    .short-text {
+      display: inline-block;
+    }
+    .full-text {
+      display: none;
     }
   }
 }
